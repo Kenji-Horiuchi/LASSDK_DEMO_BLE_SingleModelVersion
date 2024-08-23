@@ -1,0 +1,5 @@
+name: FwUpdateApp
+command: fw_update_app -p
+type: Headless
+stacksize: 1024
+event: FwUpdate.BroadcastEventFwTransferConfirm

@@ -1,0 +1,20 @@
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(FEATUE_BATTERY_APP_TEST),1)
+
+include $(CLEAR_VARS)
+LOCAL_BUILTIN_APPNAME := battery_app
+LOCAL_BUILTIN_STACKSIZE := 2048
+
+LOCAL_SRC_FILES :=
+LOCAL_SRC_FILES += BatteryApp.cc
+
+LOCAL_MOD_REQUIRE :=
+LOCAL_MOD_REQUIRE += libbatterymgr
+LOCAL_MOD_REQUIRE += libapp_shared
+LOCAL_MOD_REQUIRE += libeasel-headless-daemon
+LOCAL_MOD_REQUIRE += libpst
+
+include $(BUILD_BUILTIN_EXECUTABLE)
+
+endif #FEATUE_BATTERY_APP_TEST

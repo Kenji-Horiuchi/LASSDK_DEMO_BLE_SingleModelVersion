@@ -1,0 +1,4 @@
+name: SensorStreamingApp
+command: sensorstreaming_app -p
+type: Headless
+event: SensorStreaming.kSensorStartRequest

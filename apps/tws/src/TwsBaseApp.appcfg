@@ -1,0 +1,5 @@
+name: TwsBaseApp
+command: base_app -p
+type: Home
+priority: 10
+hidden: false

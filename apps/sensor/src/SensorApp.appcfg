@@ -1,0 +1,3 @@
+name: SensorApp
+command: sensor_app -p
+type: Normal

@@ -1,0 +1,5 @@
+name: BootApp
+command: boot_app -p
+type: Init
+priority: 10
+oneshot: true
