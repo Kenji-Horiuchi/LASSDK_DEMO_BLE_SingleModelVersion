@@ -2,6 +2,8 @@
 
 LASSDK_DEMO/LASSDK/firmware/src/apps
 
+firmware/src/.git
+
 
 
 <!-- # DEMO -->
