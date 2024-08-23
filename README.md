@@ -18,7 +18,7 @@ Modify
 
 
 # Features
-BLE(GATT)でPC(Dongle)またはAndroidにDNN検出結果を送信するためのapps (TouchPadでアクション検出モデルとヘッドジェスチャー検出モデルの切り替えが可能)
+BLE(GATT)でPC(Dongle)またはAndroidにDNN検出結果を送信するためのapps
 
 # Requirement
 
